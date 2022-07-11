@@ -1,5 +1,7 @@
 # comgroup_api_drf
 
+Тестовое задание (КоммерцGroup)
+
 Запускаем проект по команде (python manage.py runserver)
 
 Переходим http://127.0.0.1:8000/api/ (локалка)
