@@ -14,11 +14,11 @@ from .models import Employer
 @api_view(['GET'])
 def apiOverview(request):
 	api_urls = {
-		'List':'/emp-list/',
-		'Detail View':'/emp-detail/<str:pk>/',
-		'Create':'/emp-create/',
-		'Update':'/emp-update/<str:pk>/',
-		'Delete':'/emp-delete/<str:pk>/',
+		'List':'/api/emp-list/',
+		'Detail View':'/api/emp-detail/<str:pk>/',
+		'Create':'/api/emp-create/',
+		'Update':'/api/emp-update/<str:pk>/',
+		'Delete':'/api/emp-delete/<str:pk>/',
 		}
 
 	return Response(api_urls)
